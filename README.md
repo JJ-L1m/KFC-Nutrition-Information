@@ -1,6 +1,6 @@
 # KFC Nutrition Information
 
-I'm a fan of KFC and this is a personal project to track the nutrition information of KFC Singapore's food items. 
+I'm a fan of KFC and this is a personal project to track the nutrition information of KFC Singapore's food items. Kindly refer to "Data Preparation.pdf" for documentation of data preparation process and assumptions for project.
 
 Website of reference: "https://kfcsg.cognizantorderserv.com/nutrition-allergen" <br />
 *_KFC testing site instead of live site ('www.KFC.com.sg') to prevent overloading of live site._
