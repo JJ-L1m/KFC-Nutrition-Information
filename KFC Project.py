@@ -74,9 +74,10 @@ for image in soup.find_all('img'):
 
 # print(image_info) to see all the image extensions added to list
 # noted duplicates in list; remove duplicates in list while maintaining order in list
-image_info_2 = list(dict.fromkeys(image_info))
 # print(image_info_2) to see new list w/o duplicates
+image_info_2 = list(dict.fromkeys(image_info))
 
+# saving images into own desktop
 image_count = 1
 for img in image_info_2:
     with open(r'C:\Users\music\Desktop\kfc_images\image_'+str(image_count)+'.jpg', 'wb') as f:
